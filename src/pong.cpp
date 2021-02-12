@@ -5,8 +5,8 @@
 #include <math.h>
 #include <windows.h> // this is Windows-specific to hide console
 
-#include <ball.hpp>
-#include <block.hpp>
+#include "ball.hpp"
+#include "block.hpp"
 
 float getFramerate(float const& delta)
 {

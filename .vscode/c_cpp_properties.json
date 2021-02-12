@@ -1,0 +1,20 @@
+// custom configuration to have intellisense
+// working with external SFML library
+// update the "includePath" property to
+// your path to SFML library
+
+{
+    "configurations": [
+        {
+            "name": "SFML_vscode",
+            "includePath": [
+                "C:/Users/leopnt/SFML-2.5.1/include/"
+            ],
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:\\Program Files\\MinGW\\bin\\gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

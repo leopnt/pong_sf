@@ -3,9 +3,8 @@
 
 #include <SFML/System/Vector2.hpp>
 #include <SFML/Graphics.hpp>
-#include <block.hpp>
-
 #include <math.h>
+#include "block.hpp"
 
 class Ball : public sf::Drawable, public sf::Transformable
 {
